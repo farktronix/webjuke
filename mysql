@@ -1,0 +1,12 @@
+use webjuke;
+CREATE TABLE IF NOT EXISTS tracks 
+(md5 CHAR(33) NOT NULL PRIMARY KEY,
+ title VARCHAR(255) NOT NULL,
+ album VARCHAR(255),
+ artist VARCHAR(255),
+ genre VARCHAR(255),
+ tracknum SMALLINT,
+ len INT UNSIGNED,
+ loc TEXT,
+ plays INT UNSIGNED DEFAULT 0,
+ rejects INT UNSIGNED DEFAULT 0);

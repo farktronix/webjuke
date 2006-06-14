@@ -1,0 +1,134 @@
+body {
+    color: #224d8a;
+	background: #ffad37;
+}
+
+a:link {
+	color: #000000;
+	border-bottom: 1px  #000000;
+}
+
+a:visited {
+	color: #3d411f;
+}
+
+a:hover {
+	color: #3a3a3a;
+}
+
+#title {
+    font-size: 50px;
+    color: #dff073;
+    position: absolute;
+    top: 0px;
+	left: 0px;
+	font-weight: bolder;
+	width: 100%;
+	height: 70px;
+	background: #5098b6;
+    border: none;
+}
+
+#titleShadow2 {
+    font-size: 50px;
+    color: #82887c;
+    position: absolute;
+    top: 1px;
+	font-weight: bolder;
+	left: 4px;	
+}
+
+#titleShadow1 {
+    font-size: 50px;
+    color: #000000;
+    position: absolute;
+    top: 1px;
+    font-weight: bolder;
+    left: 8px;	
+}
+
+#curSong {
+	background-color: #dff073;
+	position: relative;
+	width: 100%;
+	text-align: right;
+	font-size: 13px;
+}
+
+#curSong p {
+    display: inline;
+	color: #15335d;
+}
+
+#container {
+    background: transparent;
+	position: relative;
+	top: 90px;
+	width: 100%;
+}
+
+#sidebar {
+    float: left;
+    width:15%;
+    background-color: #dff073;
+    font-size:12;
+}
+
+#toolbar {
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+#toolbar p {
+    display: inline;
+}
+
+#songList {
+    padding-left: 10px;
+}
+
+.songInfo {
+    height: 30px;
+}
+
+#song0 {
+    background: #5098b6;
+	border: 1px dashed #858585;
+}
+
+#song1 {
+    background: #fada63;
+	border: 1px solid #000000;
+}
+
+input {
+	background-color: #92cbff;
+	border:  thin solid black;
+	top: 12px;
+	border-spacing: 5px;
+}
+
+input.volbutton {
+	display: inline;
+	float:  left;
+	background-color: #92cbff;
+	border:  thin solid black;
+	top: 12px;
+	border-spacing: 5px;
+}
+
+#search {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#searchBox {
+	background-color: #5098b6;
+	border: thin;
+	top: 12px;
+	border-spacing: 5px;
+	font-weight: bolder;
+	color: #dff073;
+}
