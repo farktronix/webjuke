@@ -1,0 +1,7 @@
+Since this project includes the getid3 code, webjuke is licensed under the
+GPL. Whatever restrictions they have also apply to my code.
+
+If you take out the getid3 code, feel free to do whatever you want with the
+webjuke code. All I ask is that you satisfy my curiosity and drop me an 
+email at webjuke@rkas.net and let me know what you did with it.
+
